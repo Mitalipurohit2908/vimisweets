@@ -1,0 +1,532 @@
+/* CSS for All */
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #ff5e76;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4757;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #ff4757;
+}
+
+h2 {
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+fieldset {
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error {
+    padding: 2%;
+    color: red;
+}
+
+.success {
+    padding: 2%;
+    color: green;
+}
+
+
+/* header css */
+
+.ic-head {
+    background-color: #0044cc;
+    padding: 0.3rem;
+}
+
+.tool-icon a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0rem 0.6rem 0rem 0.6rem;
+}
+
+.tool-icon a:hover {
+    color: black;
+    font-size: 24px;
+}
+
+.con p {
+    margin: 0px;
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+}
+
+.con a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.con a:hover {
+    color: black;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px white;
+}
+
+.b-adm {
+    padding-top: 2px;
+    padding-left: 10rem;
+}
+
+
+/* CSS for navbar section */
+
+.logo {
+    width: 14%;
+    float: left;
+}
+
+.menu {
+    line-height: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.menu a {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.active {
+    color: red;
+}
+
+.btn {
+    margin: 0.2rem 1rem 0.2rem 0rem;
+}
+
+.log-info ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.log-info h5 {
+    display: inline;
+    color: #ff4757;
+    padding: 0rem 1rem 0rem 2rem;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* section services */
+
+.s-head h1 {
+    font-size: 36px;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;
+    text-align: center;
+    font-weight: bold;
+    color: #0044cc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.582);
+}
+
+.c-card-s {
+    /* background-color:#1d9ab7; */
+    background-image: linear-gradient(to right, transparent 7%, rgba(56, 247, 247, .57) 12%, rgba(0, 0, 255, .5) 100%, rgba(255, 255, 255, .8) 100%);
+    border-radius: 6px;
+    height: 270px;
+    box-shadow: 3px 3px 5px black;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.icon-box {
+    background-color: white;
+    border-radius: 0rem 0rem 2rem 2rem;
+    width: 33%;
+    height: 100px;
+    margin: auto;
+}
+
+.icon-content h4 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px;
+    padding-top: 1rem;
+}
+
+.icon-content p {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+/* CSS for Categories */
+
+.categories {
+    padding: 1rem 0;
+}
+
+.box-3 {
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.categories h3 {
+    color: rgb(5, 8, 187);
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.623);
+}
+
+
+/* CSS for Food Menu */
+
+.food-menu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.food-menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img {
+    width: 20%;
+    float: left;
+}
+
+.food-menu-img img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-menu-desc h4 {
+    font-weight: bold;
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+    color: rgb(240, 32, 66);
+}
+
+.food-detail {
+    font-size: 1rem;
+    color: #62728f;
+    text-align: justify;
+}
+
+
+/* css for Testimoniol */
+
+.testimonial {
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.testim-box {
+    width: 100%;
+    margin: auto;
+    padding: 4rem;
+    background-color: rgba(248, 113, 181, 0.685);
+    border-radius: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.testim-box h4 {
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.555);
+    color: #2e59af;
+    margin: 0;
+    padding: 0;
+}
+
+.testim-box p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS for Social */
+
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+
+
+/* for Order Section */
+
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+
+/* contact page  */
+
+.con-f {
+    background-color: #47b4d1;
+    margin-bottom: 2rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+.contact-d {
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.contact-d h4 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    /* color: black; */
+}
+
+.contact-d a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.fm-con {
+    background-image: url(../img/2111238593_647a6ba13f_c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.6rem;
+}
+
+.contact-form {
+    background-color: rgba(204, 204, 204, 0.397);
+    border-radius: 1rem;
+    margin: 2rem;
+    color: black;
+}
+
+.form-group {
+    padding: 5px 0px 5px 0px;
+}
+
+
+/*css for user signup*/
+
+.f-h-user h1 {
+    font-size: 32px;
+    padding: 0rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 2rem 0rem;
+    text-align: center;
+    font-weight: bold;
+    color: #0044cc;
+    text-shadow: 1px 1px 3px black;
+}
+
+.user-form {
+    background-image: url(../images/register-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1.6rem;
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 4px black;
+}
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .menu a {
+        padding: 0;
+    }
+    .food-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+    .btn {
+        width: 91%;
+        padding: 2%;
+    }
+    .food-search {
+        padding: 10% 0;
+    }
+    .categories {
+        padding: 20% 0;
+    }
+    h2 {
+        margin-bottom: 10%;
+    }
+    .box-3 {
+        width: 100%;
+        margin: 4% auto;
+    }
+    .food-menu {
+        padding: 20% 0;
+    }
+    .food-menu-box {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social {
+        padding: 5% 0;
+    }
+    .order {
+        width: 100%;
+    }
+    .user-form {
+        width: 100%;
+    }
+}
